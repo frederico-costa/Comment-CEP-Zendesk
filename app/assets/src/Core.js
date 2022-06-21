@@ -42,6 +42,11 @@ const aNewFunction = async() => {
     } else {
       error.style.display = 'none'
       Comment(cep.value,rua.value,bairro.value,cidade.value,estado.value)
+      cep.value = ''
+      rua.value = ''
+      bairro.value = ''
+      cidade.value = ''
+      estado.value = ''
     }
   })
 
